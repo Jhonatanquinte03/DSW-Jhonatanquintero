@@ -1,5 +1,5 @@
 header{
-    background-color: #003638;
+    background-color: #38A3A5;
     color: white;
 }
 nav{
@@ -42,6 +42,8 @@ aside{
 }
 footer{
     background-color:#003638;
+    text-align: center;
+    padding: 10px;
 }
 main{
   display: grid;  
