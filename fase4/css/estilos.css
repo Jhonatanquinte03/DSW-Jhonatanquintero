@@ -1,0 +1,56 @@
+header{
+    background-color: #38A3A5;
+    color: white;
+}
+nav{
+    background-color: #055052;
+    color: white;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    position: relative;
+    padding: 15px;
+}
+li:hover {
+    background-color: black;
+    color: white;
+}
+.submenu {
+    position: absolute;
+    width: 120%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s ;
+}
+li:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+}
+section{
+    background-color: #53B8BB;
+    grid-column:  1/4; ;
+}
+aside{
+    background-color: #F3F2C9;
+    grid-column: 4/5 ;
+}
+footer{
+    background-color:#003638;
+    text-align: center;
+    padding: 10px;
+}
+h5{
+    background-color:#003638;
+    text-align: center;
+    padding: 10px;
+}
+main{
+  display: grid;  
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
