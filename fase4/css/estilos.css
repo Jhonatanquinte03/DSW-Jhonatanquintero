@@ -45,11 +45,6 @@ footer{
     text-align: center;
     padding: 10px;
 }
-h5{
-    background-color:#003638;
-    text-align: center;
-    padding: 10px;
-}
 main{
   display: grid;  
   grid-template-columns: 1fr 1fr 1fr 1fr;
